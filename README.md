@@ -9,15 +9,15 @@
 </p>
 
 <p align="center">
-  <a href="https://nbviewer.org/github/Memreu/co2-emisyon-analizi/blob/main/co2_emisyon_analizi.ipynb"><img src="https://img.shields.io/badge/🖱️_İnteraktif_grafikleri_aç-nbviewer-F37626?logo=jupyter&logoColor=white" alt="nbviewer"></a>
-  <a href="https://colab.research.google.com/github/Memreu/co2-emisyon-analizi/blob/main/co2_emisyon_analizi.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
+  <a href="https://nbviewer.org/github/Memreu/CO2-Emissions-Analysis-Turkey/blob/main/co2_emisyon_analizi.ipynb"><img src="https://img.shields.io/badge/🖱️_İnteraktif_grafikleri_aç-nbviewer-F37626?logo=jupyter&logoColor=white" alt="nbviewer"></a>
+  <a href="https://colab.research.google.com/github/Memreu/CO2-Emissions-Analysis-Turkey/blob/main/co2_emisyon_analizi.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
 </p>
 
 Our World in Data'nın **1750–2024** CO₂ verisiyle hazırlanmış, **tamamen interaktif** (Plotly) bir veri analizi projesi. Küresel tablodan başlayıp Türkiye'ye odaklanıyor: emisyonlar nereden geliyor, kim ne kadar salıyor, ekonomik büyüme emisyondan ayrışıyor mu ve mevcut eğilim sürerse 2030'da nerede olacağız?
 
 <p align="center"><img src="images/02_dunya_haritasi.png" width="90%"></p>
 
-> 💡 **Grafikler interaktif:** Haritada yıl kaydırıcısı, emitörler grafiğinde toplam / kişi başı / kümülatif geçişi, decoupling grafiğinde ülke seçimi ve animasyonlu balon grafik var. GitHub, Plotly grafiklerini notebook önizlemesinde göstermediği için bu sayfadakiler statik kopyalar. **Interaktif hâli için [nbviewer'da aç](https://nbviewer.org/github/Memreu/co2-emisyon-analizi/blob/main/co2_emisyon_analizi.ipynb).**
+> 💡 **Grafikler interaktif:** Haritada yıl kaydırıcısı, emitörler grafiğinde toplam / kişi başı / kümülatif geçişi, decoupling grafiğinde ülke seçimi ve animasyonlu balon grafik var. GitHub, Plotly grafiklerini notebook önizlemesinde göstermediği için bu sayfadakiler statik kopyalar. **Interaktif hâli için [nbviewer'da aç](https://nbviewer.org/github/Memreu/CO2-Emissions-Analysis-Turkey/blob/main/co2_emisyon_analizi.ipynb).**
 
 > 🇬🇧 **In English:** An interactive (Plotly) analysis of global CO₂ emissions from 1750 to 2024, with a focus on Turkey. Global fossil CO₂ reached **~38.6 Gt in 2024 (+70% vs 1990)** and coal is still the largest source (41%). Turkey ranks **12th** worldwide; its emissions grew **3.3×** since 1990 and its per-capita emissions (**5.9 t**) now exceed both the world average and the EU. The project also tests economic decoupling, clusters 153 countries with K-Means, and projects Turkey's 2030 emissions with bootstrap uncertainty (**~559 Mt, 90% interval 540–579**).
 
@@ -106,8 +106,8 @@ Son 15 yılın eğilimine doğrusal regresyon uygulandı ve artıkların **boots
 ## Kurulum ve çalıştırma
 
 ```bash
-git clone https://github.com/Memreu/co2-emisyon-analizi.git
-cd co2-emisyon-analizi
+git clone https://github.com/Memreu/CO2-Emissions-Analysis-Turkey.git
+cd CO2-Emissions-Analysis-Turkey
 pip install -r requirements.txt
 jupyter lab co2_emisyon_analizi.ipynb
 ```
@@ -115,8 +115,8 @@ jupyter lab co2_emisyon_analizi.ipynb
 **Run ▸ Run All Cells** ile çalıştır. Veri seti (~14 MB) ilk çalıştırmada otomatik indirilir.
 
 **Kurulum yapmadan incelemek için:**
-- 🖱️ [nbviewer'da interaktif aç](https://nbviewer.org/github/Memreu/co2-emisyon-analizi/blob/main/co2_emisyon_analizi.ipynb): Tüm grafikler interaktif, hiçbir şey kurmadan.
-- ☁️ [Google Colab'da çalıştır](https://colab.research.google.com/github/Memreu/co2-emisyon-analizi/blob/main/co2_emisyon_analizi.ipynb): Ek kurulum gerekmez.
+- 🖱️ [nbviewer'da interaktif aç](https://nbviewer.org/github/Memreu/CO2-Emissions-Analysis-Turkey/blob/main/co2_emisyon_analizi.ipynb): Tüm grafikler interaktif, hiçbir şey kurmadan.
+- ☁️ [Google Colab'da çalıştır](https://colab.research.google.com/github/Memreu/CO2-Emissions-Analysis-Turkey/blob/main/co2_emisyon_analizi.ipynb): Ek kurulum gerekmez.
 
 ### Klasör yapısı
 
