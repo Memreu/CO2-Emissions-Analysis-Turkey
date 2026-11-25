@@ -2,7 +2,7 @@
 
 Bu projede Our World in Data'nın 1750–2024 yıllarını kapsayan CO₂ verisiyle önce küresel tabloya, sonra Türkiye'ye baktım. Cevabını aradığım sorular şunlardı: emisyonlar hangi kaynaklardan geliyor, kim ne kadar salıyor, ekonomik büyüme emisyondan ayrışıyor mu ve mevcut eğilim sürerse Türkiye 2030'da nerede olur?
 
-Grafiklerin hepsini Plotly ile interaktif hazırladım (yıl kaydırıcılı harita, toplam / kişi başı / kümülatif arasında geçiş yapılan menü, animasyonlu balon grafik gibi). GitHub notebook önizlemesinde Plotly grafiklerini göstermediği için aşağıdakiler statik kopyalar; interaktif hâli için notebook'u [nbviewer'da](https://nbviewer.org/github/Memreu/co2-emissions-turkey/blob/main/co2_emisyon_analizi.ipynb) açabilirsiniz.
+Grafiklerin hepsini Plotly ile interaktif hazırladım (yıl kaydırıcılı harita, toplam / kişi başı / kümülatif arasında geçiş yapılan menü, animasyonlu balon grafik gibi). GitHub notebook önizlemesinde Plotly grafiklerini göstermediği için aşağıdakiler statik kopyalar; interaktif hâli için notebook'u [nbviewer'da](https://nbviewer.org/github/Memreu/CO2-Emissions-Analysis-Turkey/blob/main/co2_emisyon_analizi.ipynb) açabilirsiniz.
 
 ![Dünya haritası](images/02_dunya_haritasi.png)
 
@@ -35,8 +35,8 @@ Projeksiyon için son 15 yılın verisine doğrusal bir eğilim oturttum (yılda
 ## Çalıştırmak için
 
 ```bash
-git clone https://github.com/Memreu/co2-emissions-turkey.git
-cd co2-emissions-turkey
+git clone https://github.com/Memreu/CO2-Emissions-Analysis-Turkey.git
+cd CO2-Emissions-Analysis-Turkey
 pip install -r requirements.txt
 jupyter lab co2_emisyon_analizi.ipynb
 ```
